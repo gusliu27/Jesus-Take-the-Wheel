@@ -19,7 +19,6 @@ class myHandler(BaseHTTPRequestHandler):
       fields = self.extract_fields('/get_user')
       connection = sqlite3.connect('database.db')
       cursor = connection.cursor()
-      print(fields)
       cursor.execute('select * from Users where userID = ' + fields['id'][0] + ';')
       user1 = cursor.fetchone()
       print(user1)
@@ -38,7 +37,7 @@ class myHandler(BaseHTTPRequestHandler):
 
   def extract_fields(self, prefix):
     if self.path.startswith(prefix):
-      parameters = self.path.split('/')[2]
+      parameters = self.path.split('?')[1]
       fields = parse_qs(parameters)
       return fields
 
