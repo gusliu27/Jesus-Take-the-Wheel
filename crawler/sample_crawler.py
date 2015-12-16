@@ -1,6 +1,5 @@
-from html.parser import HTMLParser  
-from urllib.request import urlopen  
-from urllib import parse
+from HTMLParser import HTMLParser
+import urllib  
 
 # We are going to create a class called LinkParser that inherits some
 # methods from HTMLParser which is why it is passed into the definition
@@ -11,9 +10,9 @@ class LinkParser(HTMLParser):
     def handle_starttag(self, tag, attrs):
         # We are looking for the begining of a link. Links normally look
         # like <a href="www.someurl.com"></a>
-        if tag  'a':
+        if tag == 'a':
             for (key, value) in attrs:
-                if key  'href':
+                if key == 'href':
                     # We are grabbing the new URL. We are also adding the
                     # base URL to it. For example:
                     # www.netinstructions.com is the base and
