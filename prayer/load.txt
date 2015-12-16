@@ -1,0 +1,2 @@
+.separator <>
+.import Users.dat Users
