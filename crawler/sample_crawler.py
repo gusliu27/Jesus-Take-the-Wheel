@@ -33,19 +33,19 @@ class LinkParser(HTMLParser):
         # absolute URLs
         self.baseUrl = url
         # Use the urlopen function from the standard Python 3 library
-        response = urlopen(url)
+        response = urllib.urlopen(url)
         # Make sure that we are looking at HTML and not other things that
         # are floating around on the internet (such as
         # JavaScript files, CSS, or .PDFs for example)
-        if response.getheader('Content-Type')=='text/html':
-            htmlBytes = response.read()
-            # Note that feed() handles Strings well, but not bytes
-            # (A change from Python 2.x to Python 3.x)
-            htmlString = htmlBytes.decode("utf-8")
-            self.feed(htmlString)
-            return htmlString, self.links
-        else:
-            return "",[]
+        #if response.getheader('Content-Type')=='text/html':
+        htmlBytes = response.read()
+        # Note that feed() handles Strings well, but not bytes
+        # (A change from Python 2.x to Python 3.x)
+        htmlString = htmlBytes.decode("utf-8")
+        self.feed(htmlString)
+        return htmlString, self.links
+        #else:
+            #return "",[]
 
 # And finally here is our spider. It takes in an URL, a word to find,
 # and the number of pages to search through before giving up
@@ -80,3 +80,7 @@ def spider(url, word, maxPages):
         print("The word", word, "was found at", url)
     else:
         print("Word never found")
+
+linkParser = LinkParser()
+token = 'CAACEdEose0cBABXaL7NISo5jREQ7nrZCOXlTwFxuzLmLLw0O4XJR7JCihsv6ATCzlIzAo1j7wqpYokkvHNiFQXrpyVcNNnYfCzPAdaPFgZC9o1fsi8bqOZAjXQ8B6x29shWcXeusP9KQvDNOpVOKWzdGwz8EZC1yfyqlEz9mYTy6ix4cNV91G2G5l23P4VaO3bxPUmY99ykqw3i8sq3J'
+print(linkParser.getLinks('https://graph.facebook.com/search?q=hillsong+concert&type=event&access_token=' + token))
