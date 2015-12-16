@@ -23,8 +23,24 @@
     loginButton.center = self.view.center;
     [self.view addSubview:loginButton];
     
-    loginButton.readPermissions =
-    @[@"public_profile", @"user_friends"];
+    FBSDKLoginManager *login = [[FBSDKLoginManager alloc] init];
+    [login
+     logInWithReadPermissions: @[@"public_profile"]
+     handler:^(FBSDKLoginManagerLoginResult *result, NSError *error) {
+         if (error) {
+             NSLog(@"Process error");
+         } else if (result.isCancelled) {
+             NSLog(@"Cancelled");
+         } else {
+             NSLog(@"Logged in");
+             [[[FBSDKGraphRequest alloc] initWithGraphPath:@"me" parameters:nil]
+              startWithCompletionHandler:^(FBSDKGraphRequestConnection *connection, id result, NSError *error) {
+                  if (!error) {
+                      NSLog(@"fetched user:%@", result);
+                  }
+              }];
+         }
+     }];
 }
 
 - (void)didReceiveMemoryWarning {
