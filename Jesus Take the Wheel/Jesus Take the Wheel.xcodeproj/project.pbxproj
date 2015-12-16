@@ -7,6 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9F2EB01F1C220A7300CBBE42 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F2EB01E1C220A7300CBBE42 /* CoreLocation.framework */; };
+		9F2EB1DC1C22155B00CBBE42 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F2EB1DB1C22155B00CBBE42 /* Accounts.framework */; };
+		9F2EB32C1C2219C200CBBE42 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F2EB1DE1C2219C100CBBE42 /* Bolts.framework */; };
+		9F2EB32D1C2219C200CBBE42 /* FacebookAudienceNetworkSDK-4_5-for-iOS.docset in Resources */ = {isa = PBXBuildFile; fileRef = 9F2EB1E01C2219C100CBBE42 /* FacebookAudienceNetworkSDK-4_5-for-iOS.docset */; };
+		9F2EB32E1C2219C200CBBE42 /* FacebookMessengerShareKitSDK-1_3-for-iOS.docset in Resources */ = {isa = PBXBuildFile; fileRef = 9F2EB1E11C2219C100CBBE42 /* FacebookMessengerShareKitSDK-1_3-for-iOS.docset */; };
+		9F2EB32F1C2219C200CBBE42 /* FacebookSDK-4_5-for-iOS.docset in Resources */ = {isa = PBXBuildFile; fileRef = 9F2EB1E21C2219C100CBBE42 /* FacebookSDK-4_5-for-iOS.docset */; };
+		9F2EB3301C2219C200CBBE42 /* install_docsets.sh in Resources */ = {isa = PBXBuildFile; fileRef = 9F2EB1E31C2219C100CBBE42 /* install_docsets.sh */; };
+		9F2EB3311C2219C200CBBE42 /* FacebookSDKStrings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9F2EB1E41C2219C100CBBE42 /* FacebookSDKStrings.bundle */; };
+		9F2EB3321C2219C200CBBE42 /* FBAudienceNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F2EB1E51C2219C100CBBE42 /* FBAudienceNetwork.framework */; };
+		9F2EB3331C2219C200CBBE42 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F2EB1E61C2219C100CBBE42 /* FBSDKCoreKit.framework */; };
+		9F2EB3341C2219C200CBBE42 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F2EB1E71C2219C100CBBE42 /* FBSDKLoginKit.framework */; };
+		9F2EB3351C2219C200CBBE42 /* FBSDKMessengerShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F2EB1E81C2219C100CBBE42 /* FBSDKMessengerShareKit.framework */; };
+		9F2EB3361C2219C200CBBE42 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F2EB1E91C2219C100CBBE42 /* FBSDKShareKit.framework */; };
+		9F2EB3371C2219C200CBBE42 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F2EB1EA1C2219C100CBBE42 /* LICENSE.txt */; };
+		9F2EB3381C2219C200CBBE42 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F2EB1EB1C2219C100CBBE42 /* README.txt */; };
 		E1B3FBC51C21260600AA55A7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E1B3FBC41C21260600AA55A7 /* main.m */; };
 		E1B3FBC81C21260600AA55A7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E1B3FBC71C21260600AA55A7 /* AppDelegate.m */; };
 		E1B3FBCB1C21260600AA55A7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1B3FBCA1C21260600AA55A7 /* ViewController.m */; };
@@ -27,6 +42,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9F2EB01E1C220A7300CBBE42 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		9F2EB1DB1C22155B00CBBE42 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		9F2EB1DE1C2219C100CBBE42 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		9F2EB1E01C2219C100CBBE42 /* FacebookAudienceNetworkSDK-4_5-for-iOS.docset */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = "FacebookAudienceNetworkSDK-4_5-for-iOS.docset"; sourceTree = "<group>"; };
+		9F2EB1E11C2219C100CBBE42 /* FacebookMessengerShareKitSDK-1_3-for-iOS.docset */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = "FacebookMessengerShareKitSDK-1_3-for-iOS.docset"; sourceTree = "<group>"; };
+		9F2EB1E21C2219C100CBBE42 /* FacebookSDK-4_5-for-iOS.docset */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = "FacebookSDK-4_5-for-iOS.docset"; sourceTree = "<group>"; };
+		9F2EB1E31C2219C100CBBE42 /* install_docsets.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = install_docsets.sh; sourceTree = "<group>"; };
+		9F2EB1E41C2219C100CBBE42 /* FacebookSDKStrings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = FacebookSDKStrings.bundle; sourceTree = "<group>"; };
+		9F2EB1E51C2219C100CBBE42 /* FBAudienceNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBAudienceNetwork.framework; sourceTree = "<group>"; };
+		9F2EB1E61C2219C100CBBE42 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		9F2EB1E71C2219C100CBBE42 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		9F2EB1E81C2219C100CBBE42 /* FBSDKMessengerShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKMessengerShareKit.framework; sourceTree = "<group>"; };
+		9F2EB1E91C2219C100CBBE42 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
+		9F2EB1EA1C2219C100CBBE42 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		9F2EB1EB1C2219C100CBBE42 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
 		E1B3FBBF1C21260600AA55A7 /* Jesus Take the Wheel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Jesus Take the Wheel.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1B3FBC31C21260600AA55A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E1B3FBC41C21260600AA55A7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -47,6 +77,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F2EB3361C2219C200CBBE42 /* FBSDKShareKit.framework in Frameworks */,
+				9F2EB3331C2219C200CBBE42 /* FBSDKCoreKit.framework in Frameworks */,
+				9F2EB32C1C2219C200CBBE42 /* Bolts.framework in Frameworks */,
+				9F2EB3341C2219C200CBBE42 /* FBSDKLoginKit.framework in Frameworks */,
+				9F2EB1DC1C22155B00CBBE42 /* Accounts.framework in Frameworks */,
+				9F2EB01F1C220A7300CBBE42 /* CoreLocation.framework in Frameworks */,
+				9F2EB3321C2219C200CBBE42 /* FBAudienceNetwork.framework in Frameworks */,
+				9F2EB3351C2219C200CBBE42 /* FBSDKMessengerShareKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +98,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9F2EB1DD1C2219C100CBBE42 /* FacebookSDKs-iOS-20150813 */ = {
+			isa = PBXGroup;
+			children = (
+				9F2EB1DE1C2219C100CBBE42 /* Bolts.framework */,
+				9F2EB1DF1C2219C100CBBE42 /* DocSets */,
+				9F2EB1E41C2219C100CBBE42 /* FacebookSDKStrings.bundle */,
+				9F2EB1E51C2219C100CBBE42 /* FBAudienceNetwork.framework */,
+				9F2EB1E61C2219C100CBBE42 /* FBSDKCoreKit.framework */,
+				9F2EB1E71C2219C100CBBE42 /* FBSDKLoginKit.framework */,
+				9F2EB1E81C2219C100CBBE42 /* FBSDKMessengerShareKit.framework */,
+				9F2EB1E91C2219C100CBBE42 /* FBSDKShareKit.framework */,
+				9F2EB1EA1C2219C100CBBE42 /* LICENSE.txt */,
+				9F2EB1EB1C2219C100CBBE42 /* README.txt */,
+			);
+			path = "FacebookSDKs-iOS-20150813";
+			sourceTree = "<group>";
+		};
+		9F2EB1DF1C2219C100CBBE42 /* DocSets */ = {
+			isa = PBXGroup;
+			children = (
+				9F2EB1E01C2219C100CBBE42 /* FacebookAudienceNetworkSDK-4_5-for-iOS.docset */,
+				9F2EB1E11C2219C100CBBE42 /* FacebookMessengerShareKitSDK-1_3-for-iOS.docset */,
+				9F2EB1E21C2219C100CBBE42 /* FacebookSDK-4_5-for-iOS.docset */,
+				9F2EB1E31C2219C100CBBE42 /* install_docsets.sh */,
+			);
+			path = DocSets;
+			sourceTree = "<group>";
+		};
 		E1B3FBB61C21260600AA55A7 = {
 			isa = PBXGroup;
 			children = (
+				9F2EB1DB1C22155B00CBBE42 /* Accounts.framework */,
+				9F2EB01E1C220A7300CBBE42 /* CoreLocation.framework */,
 				E1B3FBC11C21260600AA55A7 /* Jesus Take the Wheel */,
 				E1B3FBDB1C21260700AA55A7 /* Jesus Take the WheelTests */,
 				E1B3FBC01C21260600AA55A7 /* Products */,
+				9F2EB1DD1C2219C100CBBE42 /* FacebookSDKs-iOS-20150813 */,
 			);
 			sourceTree = "<group>";
 		};
@@ -200,8 +269,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				E1B3FBCE1C21260600AA55A7 /* Main.storyboard in Resources */,
+				9F2EB32F1C2219C200CBBE42 /* FacebookSDK-4_5-for-iOS.docset in Resources */,
 				E1B3FBD31C21260600AA55A7 /* LaunchScreen.xib in Resources */,
+				9F2EB3371C2219C200CBBE42 /* LICENSE.txt in Resources */,
+				9F2EB3381C2219C200CBBE42 /* README.txt in Resources */,
+				9F2EB32D1C2219C200CBBE42 /* FacebookAudienceNetworkSDK-4_5-for-iOS.docset in Resources */,
+				9F2EB3301C2219C200CBBE42 /* install_docsets.sh in Resources */,
+				9F2EB32E1C2219C200CBBE42 /* FacebookMessengerShareKitSDK-1_3-for-iOS.docset in Resources */,
 				E1B3FBD01C21260600AA55A7 /* Images.xcassets in Resources */,
+				9F2EB3311C2219C200CBBE42 /* FacebookSDKStrings.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,6 +421,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FacebookSDKs",
+					"$(PROJECT_DIR)/FacebookSDKs-iOS-20150813",
+				);
 				INFOPLIST_FILE = "Jesus Take the Wheel/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -355,6 +436,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FacebookSDKs",
+					"$(PROJECT_DIR)/FacebookSDKs-iOS-20150813",
+				);
 				INFOPLIST_FILE = "Jesus Take the Wheel/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -414,6 +500,7 @@
 				E1B3FBE41C21260700AA55A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E1B3FBE51C21260700AA55A7 /* Build configuration list for PBXNativeTarget "Jesus Take the WheelTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +509,7 @@
 				E1B3FBE71C21260700AA55A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
